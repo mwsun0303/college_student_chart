@@ -1,7 +1,7 @@
 #replicas: 2
 label: student
 image:
-  tag: "student-9660e"
+  tag: "student-16966"
   repository: "083623472726.dkr.ecr.ap-northeast-2.amazonaws.com/college"
   pullPolicy: IfNotPresent
   limits:
