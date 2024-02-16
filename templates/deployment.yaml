@@ -4,7 +4,6 @@ metadata:
   name: {{ .Chart.Name }}-{{ .Values.label }}
   namespace: {{ .Values.namespace }}
 spec:
-  # replicas: {{ .Values.replicas }}
   selector:
     matchLabels:
       app: {{ .Values.label }}-web
